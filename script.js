@@ -88,7 +88,16 @@ var swiper = new Swiper(".products-slider", {
       slidesPerView: 2,
     },
     991: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
+
+function loader() {
+  document.querySelector(".loader-container").classList.add("active");
+}
+
+function fadeOut() {
+  setInterval(loader, 1000);
+}
+window.onload = fadeOut();
