@@ -155,6 +155,9 @@ section {
 
 .offer-countdown {
   background: url("images/count4.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
 }
 
 .offer-countdown .content {
