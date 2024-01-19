@@ -1,6 +1,6 @@
 :root {
-  --orange: #ff4600;
-  --yellow: #fcb718;
+  --orange: #338bf0;
+  --yellow: #b72cd3;
   --black: #333;
   --white: #fff;
   --light-color: #666;
@@ -103,7 +103,7 @@ section {
 
 .home {
   min-height: 100vh;
-  background: url(images/home.jpg) no-repeat;
+  background: url(images/home1.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
